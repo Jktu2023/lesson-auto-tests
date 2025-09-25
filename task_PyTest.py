@@ -9,8 +9,8 @@ def count_vowels(text):
     for char in text:
         if char in vowels:
             count += 1
-        else:
-            count = 0
+    if count == 0:
+        return 0
     return count
 
 
