@@ -2,7 +2,7 @@ import pytest
 from task_PyTest import count_vowels
 
 @pytest.mark.parametrize("number, expected", [
-   ('hello', 2),
+   ('hello', 2), # входные данные и ожидаемые результаты
    ('apache', 3),
    ('scktch', 0),
    ('Грозный', 2),
